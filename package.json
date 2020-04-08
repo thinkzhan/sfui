@@ -1,0 +1,16 @@
+{
+  "name": "sfwiki",
+  "version": "0.0.2",
+  "description": "wiki site generator",
+  "scripts": {
+    "dev": "npm run build:lib && sfwiki --run=dev",
+    "build": "sfwiki --run=build",
+    "build:lib": "sfwiki --run=build:lib"
+  },
+  "author": "thinkzhan",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "highlight.js": "^9.18.1"
+  }
+}

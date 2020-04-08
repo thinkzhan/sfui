@@ -1,0 +1,19 @@
+
+/* you can rewrite style here*/
+@import url(https://unpkg.com/element-ui/lib/theme-chalk/index.css);
+
+.app .sfui-doc {}
+
+.demo-result {
+    margin-top: 20px;
+}
+.sfui-doc .sfui-doc-container .el-table table {
+    margin-bottom: 0
+}
+.sfui-doc .sfui-doc-container .el-pagination ul {
+    display: inline
+}
+
+.menu-goForward, .menu-goback {
+    display: none!important;
+}
